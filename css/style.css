@@ -69,7 +69,7 @@ body{
     text-decoration: underline;
     font-family: 'Gill Sans';
     font-size: 45px;
-    margin-top: 135px;
+    margin-top: 144px;
     margin-bottom: 30px;
 }
 .s2-div2{
@@ -79,17 +79,29 @@ body{
     color: blue;
 }
 .s2-item a{
+   
     line-height: 40px;
     font-size: 20px;
+  
 }
-.s2-link{
-   font-size: 25px;
-    color: blue;
-    
-}
+
 .s2-list .s2-link:hover{
     color: #fff;
 }
-.li{
-    margin-bottom: 50px;
+
+.s2-list{
+    position: relative;
 }
+.img-book{
+    position: absolute;
+    top: -5px;
+    right:  5px;
+}
+.li{
+    margin-bottom: 38px;
+}
+.container .s2-list .s2-link{
+    font-size: 25px;
+     color: blue;
+
+ }
