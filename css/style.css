@@ -40,3 +40,56 @@ body{
 .nav-link:hover{
     color: rgba(145, 193, 224, 0.747);
 }
+.s2 .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.s2-header{
+    margin-top: 150px;
+    width: 360px;
+    font-family: 'Gill Sans';
+    font-size: 45px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+.s2-p{
+    font-size: 30px;
+    width: 550px;
+    line-height: 50px;
+}
+.s2-p a{
+    color: blue;
+    margin-left: 30px;
+}
+.s2-p a:hover{
+    color: #fff;
+}
+.s2-hed2{
+    text-decoration: underline;
+    font-family: 'Gill Sans';
+    font-size: 45px;
+    margin-top: 135px;
+    margin-bottom: 30px;
+}
+.s2-div2{
+    margin-left: 70px;
+}
+.s2-item a:hover{
+    color: blue;
+}
+.s2-item a{
+    line-height: 40px;
+    font-size: 20px;
+}
+.s2-link{
+   font-size: 25px;
+    color: blue;
+    
+}
+.s2-list .s2-link:hover{
+    color: #fff;
+}
+.li{
+    margin-bottom: 50px;
+}
