@@ -102,7 +102,7 @@ body{
 }
 .container .s2-list .s2-link{
     font-size: 25px;
-     color: blue;
+    color: blue;
 
  }
  .s3-h3{
@@ -111,5 +111,69 @@ body{
      text-align: center;
      margin-top: 150px;
      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-     
+     margin-bottom: 100px;
+
  }
+ .ul-div{
+     display: flex;
+     justify-content: space-around;
+ }
+ .imgi{
+     display: flex;
+ }
+ .img-reciters{
+     border-radius: 50%;
+ }
+ .imgi p{
+     line-height: 39px;
+     margin-top: 1px;
+     margin-left: 100px;
+ }
+b {
+    font-size: 22px;
+    
+  
+}
+.img-reciters{
+    position: absolute;
+}
+.imgi{
+    margin-bottom: 35px;
+    position: relative;
+}
+audio{
+    margin-bottom: 30px;
+}
+.sura{
+    font-size: 22px;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+.audio-item{
+    position: relative;
+    width: 334px;
+    margin-right: 128px;
+}
+.download{
+    position: absolute;
+    box-sizing: content-box;
+   width: 50px;
+   height: 30px;
+   border-radius: 50%;
+   background: #fff;
+   padding:12px 2px;
+   top:10px;
+   right: -30px ;
+    
+}
+.s3{
+    padding-left: 100px;
+   
+}
+.s3-h3{
+   margin-right: 100px;
+}
+.imgi{
+    width: 350px;
+    margin-bottom: 50px;
+}
