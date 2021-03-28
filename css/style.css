@@ -51,12 +51,14 @@ body{
     font-family: 'Gill Sans';
     font-size: 45px;
     margin-bottom: 30px;
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    color: rgb(233, 233, 233);
 }
 .s2-p{
     font-size: 30px;
     width: 550px;
     line-height: 50px;
+    color: #8C8C8C;
 }
 .s2-p a{
     color: blue;
@@ -67,7 +69,8 @@ body{
     color: #fff;
 }
 .s2-hed2{
-    text-decoration: underline;
+    color: rgb(233, 233, 233);
+    /* text-decoration: underline; */
     font-family: 'Gill Sans';
     font-size: 45px;
     margin-top: 144px;
@@ -78,8 +81,6 @@ body{
 }
 .s2-item a:hover{
     color: blue;
-   
-   
    
 }
 .s2-item a{
@@ -95,6 +96,7 @@ body{
 
 .s2-list{
     position: relative;
+   
 }
 .img-book{
     position: absolute;
@@ -103,6 +105,7 @@ body{
 }
 .li{
     margin-bottom: 38px;
+    color: #8C8C8C;
 }
 .container .s2-list .s2-link{
     font-size: 25px;
@@ -110,9 +113,13 @@ body{
    
 
  }
+ .s2-item a{
+    
+ }
  .s3-h3{
-     font-size: 65px;
-     line-height: 75px;
+     color: rgb(233, 233, 233);
+     font-size: 50px;
+     line-height: 70px;
      text-align: center;
      margin-top: 150px;
      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -150,6 +157,7 @@ audio{
     margin-bottom: 30px;
 }
 .sura{
+    color: rgb(233, 233, 233);
     font-size: 22px;
     padding-left: 5px;
     margin-bottom: 5px;
@@ -215,3 +223,32 @@ transition: 0.5s;
 .s2-p a:hover{
     text-decoration: underline;
 }
+
+.imgi p{
+    color: #8C8C8C;
+}
+.imgi b{
+    color: #fff;
+}
+
+.h5-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 70px;
+}
+  
+.h5-div h5{
+    color: rgb(233, 233, 233);
+    font-size: 50px;
+    text-align: center;
+    line-height: 80px;
+}
+
+
+
+
+
+
+
+/* #8C8C8C */
