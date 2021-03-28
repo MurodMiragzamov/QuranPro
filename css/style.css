@@ -268,3 +268,25 @@ width: 235px;
     margin: 30px;
     margin-top: 0;
 }
+.one{
+    text-align: center;
+    color: rgb(233, 233, 233);
+    font-size: 45px;
+    margin-top: 130px;
+    margin-bottom:50px ;
+  
+}
+.samsung{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:40px ;
+   
+}
+.copy, .mac-app{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #8C8C8C;
+}
+.samsung li{
+    color: #8C8C8C;
+}
