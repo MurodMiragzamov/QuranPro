@@ -61,6 +61,7 @@ body{
 .s2-p a{
     color: blue;
     margin-left: 30px;
+    transition: 0.5s;
 }
 .s2-p a:hover{
     color: #fff;
@@ -77,6 +78,9 @@ body{
 }
 .s2-item a:hover{
     color: blue;
+   
+   
+   
 }
 .s2-item a{
    
@@ -103,6 +107,7 @@ body{
 .container .s2-list .s2-link{
     font-size: 25px;
     color: blue;
+   
 
  }
  .s3-h3{
@@ -166,6 +171,7 @@ audio{
    right: -30px ;
     
 }
+
 .s3{
     padding-left: 100px;
    
@@ -176,4 +182,36 @@ audio{
 .imgi{
     width: 350px;
     margin-bottom: 50px;
+}
+.a-link{
+    color: #0000ff;
+    font-size: 23px;
+    margin-left: 5px;
+    
+}
+.a-link:hover{
+    color: #fff;
+    text-decoration: underline;
+  
+}
+.s2-list .s2-link:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+.a-link{
+    transition: 0.5s;
+  
+}
+.s2-list .s2-link{
+transition: 0.5s;
+
+
+}
+.s2-item a:hover{
+    transition: 0.7s;
+
+  
+}
+.s2-p a:hover{
+    text-decoration: underline;
 }
