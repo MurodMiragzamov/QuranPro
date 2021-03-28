@@ -113,9 +113,7 @@ body{
    
 
  }
- .s2-item a{
-    
- }
+
  .s3-h3{
      color: rgb(233, 233, 233);
      font-size: 50px;
@@ -208,18 +206,18 @@ audio{
 }
 .a-link{
     transition: 0.5s;
+    
   
 }
 .s2-list .s2-link{
 transition: 0.5s;
 
-
 }
 .s2-item a:hover{
     transition: 0.7s;
 
-  
 }
+
 .s2-p a:hover{
     text-decoration: underline;
 }
