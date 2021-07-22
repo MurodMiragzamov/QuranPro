@@ -288,3 +288,17 @@ width: 235px;
 .samsung li{
     color: #8C8C8C;
 }
+
+.btn_nav{
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 1px 8px;
+    font-size: 18px;
+    border: none;
+    border-radius: 2px;
+
+}
+.btn_nav:hover{
+    background: rgba(145, 193, 224, 0.747);
+}
