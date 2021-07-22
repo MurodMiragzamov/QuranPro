@@ -303,3 +303,7 @@ width: 235px;
     background: rgba(145, 193, 224, 0.747);
 }
 
+#li{
+    color: red;
+    opacity: 25%;
+}

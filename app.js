@@ -7,7 +7,8 @@ var elmr_fatiha = document.querySelector('#mr_fatiha'),
     elaa_fatiha = document.querySelector('#aa_fatiha'),
     elaa_ikhlas = document.querySelector('#aa_ikhlas'),
     elaa_falaq = document.querySelector('#aa_falaq'),
-    elBtn = document.querySelector('.btn_nav');
+    elBtn = document.querySelector('.btn_nav'),
+    elLi = document.querySelector('#li')
 
 
 
@@ -31,6 +32,8 @@ var elmr_fatiha = document.querySelector('#mr_fatiha'),
     
         var command = evt.results[0][0].transcript;
         console.log(command)
+
+        elLi.textContent = null;
 
         if(command == 'первый первый стих' || command == 'Первый первый стих'){
             elmr_fatiha.play()
@@ -57,7 +60,10 @@ var elmr_fatiha = document.querySelector('#mr_fatiha'),
         } else if (command == 'третий третий стих' || command == 'Третий третий стих'){
             elaa_falaq.play()
             
-        } ;
+        } else {
+            elLi.textContent = '(Ничего не найдено)'
+        }
+         ;
 
 
         if(command == 'остановить'){
@@ -72,6 +78,7 @@ var elmr_fatiha = document.querySelector('#mr_fatiha'),
             elaa_ikhlas.pause();
 
         }
+       
     }
 
     elBtn.addEventListener('click', function(){
